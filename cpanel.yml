@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/leftvert/public_html/
+    - /bin/cp -R mantap $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
